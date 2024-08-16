@@ -12,7 +12,7 @@ jobs:
       - run: npm run lint
       - run: npm run test
       - run: npm run build
-      - uses: actions/upload-artifacts@v4
+      - uses: actions/upload-artifact@v4
         with:
           name: dist-file
           path: dist 
